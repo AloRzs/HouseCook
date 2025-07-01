@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\DishComponents>
  */
-class DishComponentsFactory extends Factory
+class DishComponentFactory extends Factory
 {
     /**
      * Define the model's default state.

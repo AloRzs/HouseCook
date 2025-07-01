@@ -5,7 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\ReservationStatus>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Reservationtatus>
  */
 class ReservationStatusFactory extends Factory
 {

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ComponentsController extends Controller
+class ComponentController extends Controller
 {
     //
 }

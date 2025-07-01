@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MenuDishesController extends Controller
+class MenuDishController extends Controller
 {
     //
 }

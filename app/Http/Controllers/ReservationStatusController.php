@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ReservationStatusController extends Controller
+class ReservationtatusController extends Controller
 {
     //
 }
