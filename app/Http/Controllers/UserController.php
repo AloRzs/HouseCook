@@ -1,18 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use App\Models\User;
+use Inertia\Inertia;
 
 class UserController extends Controller
 {
     //
-    public function show(string $id): View
+    public function create()
     {
-        return view('user.profile', [
-            'user' => User::findOrFail($id)
-        ]);
+        return Inertia::render('auth/login');
+    }
+    public function show(User $user): View
+    {
     }
 }
