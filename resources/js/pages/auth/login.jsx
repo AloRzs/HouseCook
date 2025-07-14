@@ -1,6 +1,10 @@
 import { Head } from '@inertiajs/react'
+import { useState } from 'react';
 
-export default function Login() {
+export default function LoginForm() {
+  function rember(){
+    const [value, setValue] = useState(null);
+  }
   return (
     <>
       <Head title='Welcome'/>
@@ -8,8 +12,11 @@ export default function Login() {
       <p>Hello Malongus, welcome to your first Inertia app!</p>
       <div>
         <p>esto es un formulario</p>
-        <form action="">
+        <form onSubmit="{handleChange}" method='POST'>
+          @csrf
+          <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         </form>
+
       </div>
     </>
   )

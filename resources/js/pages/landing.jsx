@@ -1,12 +1,15 @@
-export default function UserPage({}) {
+import { Head } from "@inertiajs/react"
+import TopBar from "../components/layouts/topbar"
+import Footer from "../components/layouts/footer"
+export default function Main() {
   return (
     <>
     <Head title="Welcome">
     <link rel="preconnect" href="https://fonts.bunny.net" />
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
     </Head>
-      <h1>Welcome</h1>
-      <p>WELCOME!!</p>
+    <TopBar />
+    <Footer />
     </>
   )
 }

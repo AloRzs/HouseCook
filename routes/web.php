@@ -6,3 +6,7 @@ use Inertia\Inertia;
 Route::get('/userpage', function (){
     return Inertia::render('auth/login');
 })->name('user.page');
+
+Route::get('/', function (){
+    return Inertia::render('landing');
+})->name('home');
